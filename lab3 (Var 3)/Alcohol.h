@@ -14,8 +14,15 @@ private:
 public:
 	/**
 	 \brief	Конструктор с параметрами
+	 \param const double strength_drink
+	 \param const string& name
+	 \ const double density
 	 */
 	explicit Alcohol(const double strength_drink, const string& name, const double density);
+	/**
+	 \brief	Деструктор
+	 */
+	~Alcohol();
 	/**
 	 \brief	Оператор сдвига
 	 */

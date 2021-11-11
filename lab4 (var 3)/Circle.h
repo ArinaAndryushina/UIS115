@@ -16,7 +16,7 @@ public:
 	/**
 	 \brief	Виртуальный деструктор
 	 */
-	virtual ~Circle();
+	~Circle();
 	/**
 	 \brief	Оператор сдвига
 	 */

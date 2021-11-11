@@ -28,7 +28,7 @@ Liquid::Liquid(const string& name, const double density)
 }
 void Liquid::set_new_density(const double density)
 {
-	this->density = density;
+	set_density(density);
 }
 void Liquid::set_name(const string& name)
 {

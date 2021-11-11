@@ -24,10 +24,10 @@ public:
 	/**
 	 \brief	Получает периметр
 	 */
-	double get_perimeter()override;
+	double get_perimeter()const override;
 	/**
 	 \brief	Получает площадь
 	 */
-	double get_area()override;
+	double get_area()const override;
 };
 

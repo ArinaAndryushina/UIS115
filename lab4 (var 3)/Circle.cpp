@@ -4,12 +4,10 @@ void Circle::set_radius(const double radius)
 {
 	if (radius > 0)
 	{
-		this->radius = radius;
-	}
-	else
-	{
 		throw invalid_argument("Неверный радиус");
+		
 	}
+	this->radius = radius;
 }
 Circle::Circle(const double radius)
 {

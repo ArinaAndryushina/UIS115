@@ -22,7 +22,7 @@ public:
 	/**
 	 \brief	Деструктор
 	 */
-	~Liquid() = default;
+	virtual ~Liquid() = default;
 	/**
 	 \brief	Оператор вывода
 	 */

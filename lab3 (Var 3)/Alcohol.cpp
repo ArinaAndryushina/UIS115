@@ -3,14 +3,11 @@
 
 void Alcohol::set_strength_drink(const double strength_drink)
 {
-	if (strength_drink > MIN_DEGREE && strength_drink <= MAX_DEGREE)
-	{
-		this->strength_drink = strength_drink;
-	}
-	else
+	if (strength_drink < MIN_DEGREE && strength_drink >= MAX_DEGREE)
 	{
 		throw invalid_argument{ "Неверная крепость напитка" };
 	}
+		this->strength_drink = strength_drink;
 }
 void Alcohol::set_new_strength_drink(const double strength_drink)
 {
